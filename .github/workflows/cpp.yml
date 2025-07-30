@@ -1,0 +1,17 @@
+name: C++ Build and Run
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Compile C++ code
+        run: g++ main.cpp -o main
+
+      - name: Run compiled program
+        run: ./main
