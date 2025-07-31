@@ -41,8 +41,8 @@ C++
 - Putting your knowledge into practice.
 
 ## How to use
-Download or clone my repository
-
+- Download or clone my repository.
+- You should have a c++ compiler or c++ ide.
 
 ## Links
 Solution URL: - (https://github.com/lawstack/CPP-Number-Guessing-Game)
